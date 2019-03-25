@@ -1,0 +1,21 @@
+.welcome{
+    background-image: url(../../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: $fw-n;
+        color: $white;
+        text-align: center;
+    }
+
+    span {
+        @include title-style($fs: 2.5rem, $color: $accent, $lh: 1.6);
+        display: block;
+    }
+}
